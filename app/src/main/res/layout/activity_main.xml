@@ -4,17 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#D5D0D0">
 
    <ghorbani.amir.kidsdrawingapp.DrawingView
        android:id="@+id/drawing_view"
        android:layout_width="0dp"
        android:layout_height="0dp"
-       app:layout_constraintBottom_toBottomOf="parent"
+       android:layout_marginTop="1dp"
+       android:background="@drawable/background_drawing_view_layout"
+       app:layout_constraintBottom_toTopOf="@id/ib_brush_size"
        app:layout_constraintEnd_toEndOf="parent"
        app:layout_constraintStart_toStartOf="parent"
        app:layout_constraintTop_toTopOf="parent"
-       android:background="@color/white"
+
+       />
+
+   <ImageButton
+       android:id="@+id/ib_brush_size"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_margin="5dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/drawing_view"
+       android:src="@drawable/ic_brush"
+       android:scaleType="fitXY"
        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
