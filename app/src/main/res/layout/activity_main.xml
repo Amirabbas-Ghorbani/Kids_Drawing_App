@@ -182,12 +182,23 @@
        app:layout_constraintTop_toBottomOf="@+id/ll_paint_colors"
        >
 
-      <ImageView
+      <ImageButton
+          android:id="@+id/ib_camera"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:layout_margin="5dp"
+          android:src="@drawable/ic_camera"
+          android:backgroundTint="#D5D0D0"
+          android:scaleType="fitXY"
+          />
+
+      <ImageButton
           android:id="@+id/ib_gallery"
           android:layout_width="50dp"
           android:layout_height="50dp"
           android:layout_margin="5dp"
           android:src="@drawable/ic_gallery"
+          android:backgroundTint="#D5D0D0"
           android:scaleType="fitXY"
           />
 
