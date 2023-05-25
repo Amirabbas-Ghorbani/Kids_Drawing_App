@@ -26,6 +26,7 @@
           android:layout_height="match_parent"
           android:scaleType="centerCrop"
           android:src="@drawable/background_drawing_view_layout"
+          tools:src="@drawable/ic_eiffel"
           />
 
       <ghorbani.amir.kidsdrawingapp.DrawingView
@@ -183,11 +184,11 @@
        >
 
       <ImageButton
-          android:id="@+id/ib_camera"
+          android:id="@+id/ib_info"
           android:layout_width="50dp"
           android:layout_height="50dp"
           android:layout_margin="5dp"
-          android:src="@drawable/ic_camera"
+          android:src="@drawable/ic_information"
           android:backgroundTint="#D5D0D0"
           android:scaleType="fitXY"
           />
@@ -247,7 +248,7 @@
           android:layout_width="50dp"
           android:layout_height="50dp"
           android:layout_margin="5dp"
-          android:src="@drawable/ic_floppy_disk"
+          android:src="@drawable/ic_save3"
           android:backgroundTint="#D5D0D0"
           android:scaleType="fitXY"
           />

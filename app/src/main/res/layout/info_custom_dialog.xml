@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Powered by Amir Ghorbani"
+        android:textSize="16sp"
+        android:textColor="@color/sky_blue"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/bt_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#E8E8E8E8"
+        android:text="OK"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:textSize="14sp"
+        />
+
+</LinearLayout>
