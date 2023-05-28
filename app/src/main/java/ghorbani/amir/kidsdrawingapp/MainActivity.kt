@@ -295,7 +295,7 @@ class MainActivity : AppCompatActivity() {
         var infoCustomDialog = Dialog(this)
         infoCustomDialog.setContentView(R.layout.info_custom_dialog)
         infoCustomDialog.findViewById<TextView>(R.id.bt_ok).setOnClickListener{
-            Toast.makeText(this, "Thank you!", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "I hope you enjoyed. Thank you!", Toast.LENGTH_LONG).show()
             infoCustomDialog.dismiss()
         }
         infoCustomDialog.show()
